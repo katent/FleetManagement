@@ -2097,6 +2097,11 @@
       <Name>FMWorker</Name>
       <Link>Tables\FMWorker</Link>
     </Content>
+    <Content Include="AxTable\luzhongjietest">
+      <SubType>Content</SubType>
+      <Name>luzhongjietest</Name>
+      <Link>Tables\luzhongjietest</Link>
+    </Content>
     <Content Include="AxTable\MyInternalOrganizationsForRole">
       <SubType>Content</SubType>
       <Name>MyInternalOrganizationsForRole</Name>
