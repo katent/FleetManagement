@@ -2523,6 +2523,13 @@
       <Name>Microsoft.Dynamics.Application.Instrumentation</Name>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DriversLicenseEvaluator\DriversLicenseEvaluator.csproj">
+      <Name>DriversLicenseEvaluator</Name>
+      <Project>{24146a22-3a41-4996-9786-d89473b51886}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
   <Import Project="$(BuildTasksDirectory)\Microsoft.Dynamics.Framework.Tools.BuildTasks.targets" />
 </Project>
